@@ -192,7 +192,7 @@ defaultContentLanguage = "en"
   [[params.clinical_cases]]
     enabled = true
     category = "crown"
-    category_ar = "كراون"
+    category_ar = "تركيبات ثابتة"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/2ce3696c-45e7-40fb-a111-d103ef615d11"
@@ -204,7 +204,7 @@ defaultContentLanguage = "en"
   [[params.clinical_cases]]
     enabled = true
     category = "Endo"
-    category_ar = "اندو"
+    category_ar = "حشو عصب"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/854db463-70ae-4f06-80ae-5278256f75ad"
@@ -216,7 +216,7 @@ defaultContentLanguage = "en"
   [[params.clinical_cases]]
     enabled = true
     category = "Prosthesis"
-    category_ar = "بروسيزس"
+    category_ar = "تركيبات متحركة"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/d892f828-5ce8-43ba-b09f-0d09e9041d84"
