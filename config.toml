@@ -165,7 +165,7 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "Crown"
+    category = "كراون"
     category_ar = "كراون"
     
     [[params.clinical_cases.cases]]
@@ -202,7 +202,7 @@ defaultContentLanguage = "en"
   [[params.clinical_cases]]
     enabled = true
     category = "Operative"
-    category_ar = "اوبرتيف"
+    category_ar = "حشو تجميلى"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/87264e3a-0479-4ab6-8ce8-9e5840542883"
@@ -210,23 +210,6 @@ defaultContentLanguage = "en"
       description = "Rubber Dam isolation"
       alt_ar = "تركيب العازل"
       description_ar = "تركيب العازل"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Periodontics"
-    category_ar = "اندو"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/d5baf4b0-ebe7-419c-a85b-8a8f10340428"
-      alt = "Scaling and polishing"
-      description = "Scaling and polishing"
-      alt_ar = "تنظيف الجير وازالة التصبغات"
-      description_ar = "تنظيف الجير وازالة التصبغات"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Restorative"
-    category_ar = "اوبرتيف"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/d02321aa-2a48-491a-830b-8adbe8cb01b8"
@@ -234,23 +217,6 @@ defaultContentLanguage = "en"
       description = "Composite restoration"
       alt_ar = "حشو عادي"
       description_ar = "حشو عادي"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Surgery"
-    category_ar = "جراحه"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/147d10b1-63d1-4edd-a81b-a97896385271"
-      alt = "Extraction Remaining root"
-      description = "Extraction Remaining root"
-      alt_ar = "خلع جدور"
-      description_ar = "خلع جدور"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Cosmetic"
-    category_ar = "اوبرتيف"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/5a5cc2bb-74fb-4ef3-b908-47905f486bfd"
@@ -261,8 +227,20 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
+    category = "Surgery"
+    category_ar = "Surgery"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/147d10b1-63d1-4edd-a81b-a97896385271"
+      alt = "Extraction Remaining root"
+      description = "Extraction Remaining root"
+      alt_ar = "خلع جدور"
+      description_ar = "خلع جدور"
+
+  [[params.clinical_cases]]
+    enabled = true
     category = "Oral Surgery"
-    category_ar = "امبلانت"
+    category_ar = "Oral Surgery"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/e8bf4089-368e-49ac-ac55-1c303588fa6e"
