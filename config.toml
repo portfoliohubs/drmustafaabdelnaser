@@ -1,0 +1,379 @@
+baseURL = "https://portfoliohubs.github.io/Mustafa/"
+languageCode = "en-us"
+title = "Dr. Mustafa Abdelnaser Kamel Ali"
+defaultContentLanguage = "en"
+
+[params]
+  # Hero Section
+  [params.hero]
+    name = "Dr. Mustafa Abdelnaser Kamel Ali"
+    tagline = "Internship Doctor"
+    graduation = "Graduated 2025 - Faculty of Dentistry"
+    profile_image = "https://github.com/user-attachments/assets/e2668309-5d84-46e0-b949-8eb957f916da"
+    profile_image_alt = "Profile photo of Dr. Mustafa Abdelnaser Kamel Ali"
+    
+    [params.hero.current_position]
+      role = "Internship Doctor"
+      clinic = "Internship Doctor at Deraya University Hospital"
+
+  [params.seo]
+    description = "Professional dental portfolio"
+    doctor_name_en = "Dr. Mustafa Abdelnaser Kamel Ali"
+    doctor_name_ar = "د. مصطفي عبدالناصر كامل علي"
+    site_name = "Dr. Mustafa Abdelnaser Kamel Ali"
+    og_image = "https://github.com/user-attachments/assets/45699c76-1652-423b-b4ea-8a317eb59723"
+    favicon_image = "https://github.com/user-attachments/assets/45699c76-1652-423b-b4ea-8a317eb59723"
+    twitter_handle = ""
+    keywords = [
+      "دكتور مصطفي عبدالناصر",
+      "Dentists Mustafa Abdelnaser",
+      "دكتور مصطفي عبدالناصر دكتور الاسنان",
+      "دكتور مصطفي عبدالناصر اسنان مركز دار السلام",
+      "عيادة الدكتور مصطفي عبدالناصر",
+      "عيادة الدكتور مصطفي عبدالناصر للاسنان",
+      "مركز الدكتور مصطفي عبدالناصر للاسنان",
+      "Dr. Mustafa Abdelnaser",
+      "الدكتور مصطفي عبدالناصر للاسنان",
+      "عيادة الاسنان للدكتور مصطفي عبدالناصر",
+      "دكتور مصطفي عبدالناصر اسنان سوهاج",
+      "افضل دكتور اسنان في سوهاج",
+      "افضل دكتور اسنان في دار السلام للاسنان",
+      "الدكاتره الاعلي تقيما دكتور مصطفي عبدالناصر"
+    ]
+    keywords_ar = [
+      "دكتور مصطفي عبدالناصر",
+      "Dentists Mustafa Abdelnaser",
+      "دكتور مصطفي عبدالناصر دكتور الاسنان",
+      "دكتور مصطفي عبدالناصر اسنان مركز دار السلام",
+      "عيادة الدكتور مصطفي عبدالناصر",
+      "عيادة الدكتور مصطفي عبدالناصر للاسنان",
+      "مركز الدكتور مصطفي عبدالناصر للاسنان",
+      "Dr. Mustafa Abdelnaser",
+      "الدكتور مصطفي عبدالناصر للاسنان",
+      "عيادة الاسنان للدكتور مصطفي عبدالناصر",
+      "دكتور مصطفي عبدالناصر اسنان سوهاج",
+      "افضل دكتور اسنان في سوهاج",
+      "افضل دكتور اسنان في دار السلام للاسنان",
+      "الدكاتره الاعلي تقيما دكتور مصطفي عبدالناصر"
+    ]
+
+  [params.integrations]
+    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+    google_analytics_measurement_id = ""
+
+  [params.ui]
+    [params.ui.nav]
+      profile = "Profile"
+      skills = "Skills"
+      education = "Education"
+      clinical_cases = "Clinical Cases"
+      cases_short = "Cases"
+      blog = "Blog"
+      contact = "Contact"
+
+    [params.ui.skills]
+      title = "Professional Skills"
+      clinical_title = "Clinical Skills"
+      digital_title = "Digital Skills"
+      soft_title = "Soft Skills"
+
+    [params.ui.education]
+      title = "Education & Timeline"
+      graduated_label = "Graduated"
+      career_timeline_title = "Career Timeline"
+      courses_title = "Courses & Certifications"
+
+    [params.ui.cases]
+      title = "Clinical Cases"
+      subtitle = "Clinical Cases Gallery"
+
+    [params.ui.blog]
+      title = "Latest Articles"
+      subtitle = "Insights and Knowledge"
+      empty_text = "No blog posts yet"
+
+    [params.ui.contact]
+      title = "Get In Touch"
+      subtitle = "Let's connect and collaborate"
+      follow_me_title = "Follow Me"
+
+    [params.ui.labels]
+      now_working_as = "Now working as"
+      at = "at"
+      phone = "Phone"
+      whatsapp = "WhatsApp"
+      email = "Email"
+      location = "Location"
+      get_directions = "Get Directions"
+      masters_degree = "Master's Degree"
+      phd_degree = "PhD Degree"
+      rights_reserved = "All rights reserved"
+
+  # Skills Section
+  [params.skills]
+    clinical = [
+      "GP Skills"
+    ]
+    
+    digital = [
+      "Powerpoint"
+    ]
+    
+    soft = [
+      "pediatric patients mangement"
+    ]
+
+  # Education Section
+  [params.education]
+    university = "Deraya university"
+    graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master in Oral Medicine"
+      year = ""
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD in Dental Sciences"
+      year = ""
+    
+    [[params.education.timeline]]
+      year = "2020"
+      event = "start faculty of dentistry"
+    
+    [[params.education.timeline]]
+      year = "2025"
+      event = "graduated"
+    
+    # Certificates (images will be uploaded via GitHub issues)
+    # [[params.education.certificates]]
+    #   title = "Advanced Endodontics Course"
+    #   image = "cert1.jpg"
+  # Clinical Cases Section
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Periodontology"
+    category_ar = "اندو"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/fb324fd5-b900-4bbb-b41f-4c72fcb3cfd6"
+      alt = "Scaling and polishing"
+      description = "Scaling and polishing"
+      alt_ar = "ازالة الجير والتصبغات"
+      description_ar = "ازالة الجير والتصبغات"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Crown"
+    category_ar = "كراون"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/2ce3696c-45e7-40fb-a111-d103ef615d11"
+      alt = "Fixed Fixed Bridge"
+      description = "Fixed Fixed Bridge"
+      alt_ar = "تركيبات ثابته"
+      description_ar = "تركيبات ثابته"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Endo"
+    category_ar = "اندو"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/854db463-70ae-4f06-80ae-5278256f75ad"
+      alt = "Endo Treated tooth"
+      description = "Endo Treated tooth"
+      alt_ar = "حشو عصب"
+      description_ar = "حشو عصب"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Prosthesis"
+    category_ar = "بروسيزس"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/d892f828-5ce8-43ba-b09f-0d09e9041d84"
+      alt = "Complete Denture"
+      description = "Complete Denture"
+      alt_ar = "طقم كامل متحرك"
+      description_ar = "طقم كامل متحرك"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Operative"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/87264e3a-0479-4ab6-8ce8-9e5840542883"
+      alt = "Rubber Dam isolation"
+      description = "Rubber Dam isolation"
+      alt_ar = "تركيب العازل"
+      description_ar = "تركيب العازل"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Periodontics"
+    category_ar = "اندو"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/d5baf4b0-ebe7-419c-a85b-8a8f10340428"
+      alt = "Scaling and polishing"
+      description = "Scaling and polishing"
+      alt_ar = "تنظيف الجير وازالة التصبغات"
+      description_ar = "تنظيف الجير وازالة التصبغات"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Restorative"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/d02321aa-2a48-491a-830b-8adbe8cb01b8"
+      alt = "Composite restoration"
+      description = "Composite restoration"
+      alt_ar = "حشو عادي"
+      description_ar = "حشو عادي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Surgery"
+    category_ar = "جراحه"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/147d10b1-63d1-4edd-a81b-a97896385271"
+      alt = "Extraction Remaining root"
+      description = "Extraction Remaining root"
+      alt_ar = "خلع جدور"
+      description_ar = "خلع جدور"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Cosmetic"
+    category_ar = "اوبرتيف"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/5a5cc2bb-74fb-4ef3-b908-47905f486bfd"
+      alt = "Back to Back composite restoration"
+      description = "Back to Back composite restoration"
+      alt_ar = "حشو عادي تجميلي"
+      description_ar = "حشو عادي تجميلي"
+
+  [[params.clinical_cases]]
+    enabled = true
+    category = "Oral Surgery"
+    category_ar = "امبلانت"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/e8bf4089-368e-49ac-ac55-1c303588fa6e"
+      alt = "Extraction lower 8"
+      description = "Extraction lower 8"
+      alt_ar = "خلع لدرس العقل"
+      description_ar = "خلع لدرس العقل"
+      
+  # Contact Section
+  [params.contact]
+    phone = "01008599154"
+    whatsapp = "+201008599154"
+    email = "qwe13.sasa@gmail.com"
+    instagram = ""
+    facebook = "https://www.facebook.com/share/18BNcP1C1T/"
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "Deraya university hospital"
+      latitude = "28.07678124572378"
+      longitude = "30.83362276008308"
+
+# Arabic Translations
+[params.ar]
+  [params.ar.hero]
+    name = "د. مصطفي عبدالناصر كامل علي"
+    tagline = "طبيب امتياز"
+    graduation = "تخرج 2025 - كلية طب الأسنان"
+    profile_image_alt = "صورة الملف الشخصي للدكتور مصطفي عبدالناصر كامل علي"
+    
+    [params.ar.hero.current_position]
+      role = "طبيب امتياز"
+      clinic = "طبيب امتياز في مستشفي جامعة دراية"
+  
+[params.ar.skills]
+    clinical = [
+      "جراحه"
+    ]
+    
+    digital = [
+      "Powerpoint"
+    ]
+    
+    soft = [
+      "pediatric patients mangement"
+    ]
+    
+  
+  [params.ar.education]
+    university = "جامعة دراية - كلية طب الأسنان"
+    
+    [params.ar.education.master]
+      title = "ماجستير في طب الفم"
+    
+    [params.ar.education.phd]
+      title = "دكتوراه في علوم الأسنان"
+    
+    [[params.ar.education.timeline]]
+      event = "2020 الدخول الى الكليه"
+    
+    [[params.ar.education.timeline]]
+      event = "2025 التخرج من الكليه"  
+
+  [params.ar.contact.location]
+    address = "مستشفي جامعة دراية"
+
+  [params.ar.ui]
+    [params.ar.ui.nav]
+      profile = "الملف الشخصي"
+      skills = "المهارات"
+      education = "التعليم"
+      clinical_cases = "الحالات السريرية"
+      cases_short = "الحالات"
+      blog = "المدونة"
+      contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً ك"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
