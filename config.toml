@@ -153,6 +153,32 @@ defaultContentLanguage = "en"
   # Clinical Cases Section
   [[params.clinical_cases]]
     enabled = true
+    category = "Operative"
+    category_ar = "حشو تجميلى"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/87264e3a-0479-4ab6-8ce8-9e5840542883"
+      alt = "Rubber Dam isolation"
+      description = "Rubber Dam isolation"
+      alt_ar = "تركيب العازل"
+      description_ar = "تركيب العازل"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/d02321aa-2a48-491a-830b-8adbe8cb01b8"
+      alt = "Composite restoration"
+      description = "Composite restoration"
+      alt_ar = "حشو عادي"
+      description_ar = "حشو عادي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/5a5cc2bb-74fb-4ef3-b908-47905f486bfd"
+      alt = "Back to Back composite restoration"
+      description = "Back to Back composite restoration"
+      alt_ar = "حشو عادي تجميلي"
+      description_ar = "حشو عادي تجميلي"
+
+  [[params.clinical_cases]]
+    enabled = true
     category = "Periodontology"
     category_ar = "اندو"
     
@@ -165,7 +191,7 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "كراون"
+    category = "crown"
     category_ar = "كراون"
     
     [[params.clinical_cases.cases]]
@@ -198,32 +224,6 @@ defaultContentLanguage = "en"
       description = "Complete Denture"
       alt_ar = "طقم كامل متحرك"
       description_ar = "طقم كامل متحرك"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Operative"
-    category_ar = "حشو تجميلى"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/87264e3a-0479-4ab6-8ce8-9e5840542883"
-      alt = "Rubber Dam isolation"
-      description = "Rubber Dam isolation"
-      alt_ar = "تركيب العازل"
-      description_ar = "تركيب العازل"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/d02321aa-2a48-491a-830b-8adbe8cb01b8"
-      alt = "Composite restoration"
-      description = "Composite restoration"
-      alt_ar = "حشو عادي"
-      description_ar = "حشو عادي"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/5a5cc2bb-74fb-4ef3-b908-47905f486bfd"
-      alt = "Back to Back composite restoration"
-      description = "Back to Back composite restoration"
-      alt_ar = "حشو عادي تجميلي"
-      description_ar = "حشو عادي تجميلي"
 
   [[params.clinical_cases]]
     enabled = true
