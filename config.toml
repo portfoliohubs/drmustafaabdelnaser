@@ -228,7 +228,7 @@ defaultContentLanguage = "en"
   [[params.clinical_cases]]
     enabled = true
     category = "Surgery"
-    category_ar = "Surgery"
+    category_ar = "خلع وجراحه"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/147d10b1-63d1-4edd-a81b-a97896385271"
@@ -236,11 +236,6 @@ defaultContentLanguage = "en"
       description = "Extraction Remaining root"
       alt_ar = "خلع جدور"
       description_ar = "خلع جدور"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Oral Surgery"
-    category_ar = "Oral Surgery"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/e8bf4089-368e-49ac-ac55-1c303588fa6e"
