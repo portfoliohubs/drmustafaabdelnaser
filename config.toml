@@ -180,7 +180,7 @@ defaultContentLanguage = "en"
   [[params.clinical_cases]]
     enabled = true
     category = "Periodontology"
-    category_ar = "اندو"
+    category_ar = "تنضيف جير"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/fb324fd5-b900-4bbb-b41f-4c72fcb3cfd6"
